@@ -1,0 +1,23 @@
+CI Process 
+Pre-requisites 
+1) install git s/w 
+2) create an account with github and create emtry repository. 
+	Repo URL: https://github.com/Ardalkar/PetstoreAPIAutomation.git
+	
+--------------------------------------------------------------------------------
+Working Project loc: C:\workspace\java-workspacecreate\PetstoreAPIAutomation 
+1) git init ---> create an emtpy local repository 
+2) git config --global user.name "your name" 
+	git config --global user.email "abc@gmail.com" 
+3) git status 
+4) git add -A --> add all the files & folders to staging area. 
+	git add filename.ext 
+	git add *.ext 
+	git add foldernamegit commit -m "commit message" 
+	
+5)git commit -m "comment"
+----------------------------------------------------------------------------------------
+Establish connection between Github & jenkins
+Push the code to remote repository 
+6) git remote add origin "Repo url"		//local repo connected with remote
+7)git push -u origin master
